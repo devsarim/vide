@@ -119,6 +119,12 @@ type Instances = {
     AudioSpeechToText: AudioSpeechToText,
     AudioTextToSpeech: AudioTextToSpeech,
     AudioTremolo: AudioTremolo,
+    BloomEffect: BloomEffect,
+    BlurEffect: BlurEffect,
+    ColorCorrectionEffect: ColorCorrectionEffect,
+    ColorGradingEffect: ColorGradingEffect,
+    DepthOfFieldEffect: DepthOfFieldEffect,
+    SunRaysEffect: SunRaysEffect
 }
 
 export type function Properties(instance: type?)
