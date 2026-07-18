@@ -1,8 +1,8 @@
-name = "centau/vide"
+name = "devsarim/vide"
 version = "0.4.1"
 description = "A reactive Luau library for creating UI."
-authors = ["centau"]
-repository = "https://github.com/centau/vide"
+authors = ["devsarim"]
+repository = "https://github.com/devsarim/vide"
 license = "MIT"
 includes = ["src/*", "README.md", "pesde.toml"]
 
