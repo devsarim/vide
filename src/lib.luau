@@ -27,6 +27,7 @@ export type Source<T> = source.Source<T>
 export type source<T> = Source<T>
 export type Context<T> = context.Context<T>
 export type context<T> = Context<T>
+export type Properties<Instance> = create.Properties<Instance>
 
 local function step(dt: number)
     if game then debug.profilebegin("VIDE STEP") end

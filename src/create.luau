@@ -87,7 +87,7 @@ type Instances = {
     WorldModel: WorldModel,
 }
 
-type function Properties(instance: type?)
+export type function Properties(instance: type?)
     local properties = types.newtable()
 
     while instance do
